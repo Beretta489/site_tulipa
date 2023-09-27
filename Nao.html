@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPOSTA ERRADA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: black; /* Cor de fundo preta */
+            color: purple; /* Cor do texto roxa */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .button {
+            background-color: purple; /* Cor do botão roxa */
+            color: white; /* Cor do texto do botão branca */
+            border: none;
+            padding: 20px 40px;
+            font-size: 24px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>RESPOSTA ERRADA</h1>
+    <button class="button" onclick="redirecionarParaSim()">Sim</button>
+
+    <script>
+        function redirecionarParaSim() {
+            // Redireciona de volta para a página ao clicar em "Sim"
+            window.location.href = 'Sim.html';
+        }
+    </script>
+</body>
+</html>
